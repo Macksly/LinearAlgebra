@@ -30,22 +30,20 @@ void Main::Controllers::MainController::Line(std::vector<Models::Rect*> rectangl
 {
 	Drawables::Vector* vector1 = new Drawables::Vector(
 		CreatePoint(rectangles, -2, 2),
-		CreatePoint(rectangles, -4, 4),
+		CreatePoint(rectangles, 2, -2),
 		Models::Color{ 0x99, 0x0, 0x0, 0x1 }
 	);
 
-	
+	Drawables::Vector* vector2 = new Drawables::Vector(
+		CreatePoint(rectangles, 2, -2),
+		CreatePoint(rectangles, 3, -5),
+		Models::Color{ 0x99, 0x0, 0x0, 0x1 }
+	);
 
-	//Drawables::Vector* vector2 = new Drawables::Vector(
-	//	CreatePoint(rectangles, 4, 4),
-	//	CreatePoint(rectangles, 9, -9),
-	//	Models::Color{ 0x99, 0x0, 0x0, 0x1 }
-	//);
-
-	//_window->DrawVector(vector2);
+	_window->DrawVector(vector2);
 
 	VectorCalculator calculator = {};
-	_window->DrawVector(calculator.Multiply(vector1, 2));
+	_window->DrawVector(calculator.Subtract(vector1, vector2));
 	_window->DrawVector(vector1);
 }
 

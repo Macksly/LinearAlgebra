@@ -45,6 +45,9 @@
     <ClInclude Include="src\Controllers\VectorCalculator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Drawables\Rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Main.cpp">

@@ -1,4 +1,4 @@
 ﻿  MainController.cpp
 D:\School - Programming\Linal\Linal\Main\src\Controllers\MainController.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-D:\School - Programming\Linal\Linal\Main\src\Controllers\MainController.cpp(59): warning C4715: 'Main::Controllers::MainController::CreatePoint': not all control paths return a value
+D:\School - Programming\Linal\Linal\Main\src\Controllers\MainController.cpp(57): warning C4715: 'Main::Controllers::MainController::CreatePoint': not all control paths return a value
   Main.vcxproj -> D:\School - Programming\Linal\Linal\Main\bin\x64\Debug\Main.exe

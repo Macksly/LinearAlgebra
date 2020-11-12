@@ -146,6 +146,7 @@
   <ItemGroup>
     <ClInclude Include="src\Controllers\MainController.h" />
     <ClInclude Include="src\Controllers\VectorCalculator.h" />
+    <ClInclude Include="src\Drawables\Rect.h" />
     <ClInclude Include="src\Drawables\Text.h" />
     <ClInclude Include="src\Main.h" />
     <ClInclude Include="src\Models\CoordinateMap.h" />
